@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  go-hpa:
+    image: zenatureza/go-hpa
+    build: .
+    entrypoint: sh ./.docker/run.sh
