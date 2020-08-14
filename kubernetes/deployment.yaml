@@ -6,7 +6,7 @@ metadata:
   name: go-hpa
 
 spec:
-  replicas: 3
+  replicas: 6
 
   selector:
     matchLabels:
